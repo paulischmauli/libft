@@ -7,9 +7,10 @@
 
 //	highly illegal headerfiles for testing purposes
 # include <stdio.h>
-#include <ctype.h>
+# include <ctype.h>
 
 int	ft_isalnum(int c);
 int	ft_isalpha(int c);
+int	ft_isascii(int c);
 int	ft_isdigit(int c);
 #endif
