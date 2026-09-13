@@ -1,4 +1,4 @@
-// #include "libft.h"
+#include "libft.h"
 static int ft_isupper(int c) {
   if ('A' <= c && c <= 'Z')
     return 1;
