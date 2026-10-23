@@ -6,18 +6,11 @@
 /*   By: paziehen <paziehen@student.42vienna.com>  #+#  +:+       +#+         */
 /*                                               +#+#+#+#+#+   +#+            */
 /*   Created: 2026/10/21 17:12:29 by paziehen         #+#    #+#              */
-/*   Updated: 2026/10/21 23:16:39 by paziehen        ###   ########.fr        */
+/*   Updated: 2026/10/23 19:15:45 by paziehen        ###   ########.fr        */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
-static int	check_digit(int c)
-{
-	if ('0' <= c && c <= '9')
-		return (1);
-	return (0);
-}
 
 static int	ft_isspace(int c)
 {
@@ -45,7 +38,7 @@ int	ft_atoi(const char *nptr)
 	}
 	else if (nptr[i] == '+')
 		i++;
-	while (check_digit((unsigned char)nptr[i]))
+	while (ft_isdigit((unsigned char)nptr[i]))
 	{
 		result = result * 10 + nptr[i] - '0';
 		i++;

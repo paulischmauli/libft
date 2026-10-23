@@ -6,7 +6,7 @@
 /*   By: paziehen <paziehen@student.42vienna.com>  #+#  +:+       +#+         */
 /*                                               +#+#+#+#+#+   +#+            */
 /*   Created: 2026/10/20 12:46:09 by paziehen         #+#    #+#              */
-/*   Updated: 2026/10/20 12:46:12 by paziehen        ###   ########.fr        */
+/*   Updated: 2026/10/23 19:10:53 by paziehen        ###   ########.fr        */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,8 +15,8 @@
 void	*ft_memcpy(void *dest, const void *src, size_t n)
 {
 	size_t				i;
-	unsigned char		d;
-	const unsigned char	s;
+	unsigned char		*d;
+	const unsigned char	*s;
 
 	d = (unsigned char *)dest;
 	s = (const unsigned char *)src;
