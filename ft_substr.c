@@ -6,7 +6,7 @@
 /*   By: paziehen <paziehen@student.42vienna.com>  #+#  +:+       +#+         */
 /*                                               +#+#+#+#+#+   +#+            */
 /*   Created: 2026/10/22 13:29:08 by paziehen         #+#    #+#              */
-/*   Updated: 2026/10/22 14:23:15 by paziehen        ###   ########.fr        */
+/*   Updated: 2026/10/23 20:05:20 by paziehen        ###   ########.fr        */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,8 +26,10 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 			return (NULL);
 		return (*substr = '\0', substr);
 	}
-	if (len > s_len)
-		len = s_len;
+	if (start >= s_len)
+		len = 0;
+	else if (len > s_len - start)
+		len = s_len - start;
 	substr = malloc(len + 1);
 	if (!substr)
 		return (NULL);
