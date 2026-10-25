@@ -6,11 +6,9 @@
 /*   By: paziehen <paziehen@student.42vienna.com>  #+#  +:+       +#+         */
 /*                                               +#+#+#+#+#+   +#+            */
 /*   Created: 2026/10/20 12:45:49 by paziehen         #+#    #+#              */
-/*   Updated: 2026/10/20 12:45:52 by paziehen        ###   ########.fr        */
+/*   Updated: 2026/10/25 13:38:43 by paziehen        ###   ########.fr        */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 int	ft_isprint(int c)
 {

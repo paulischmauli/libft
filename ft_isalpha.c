@@ -6,11 +6,9 @@
 /*   By: paziehen <paziehen@student.42vienna.com>  #+#  +:+       +#+         */
 /*                                               +#+#+#+#+#+   +#+            */
 /*   Created: 2026/10/20 12:44:31 by paziehen         #+#    #+#              */
-/*   Updated: 2026/10/23 17:55:27 by paziehen        ###   ########.fr        */
+/*   Updated: 2026/10/25 13:37:57 by paziehen        ###   ########.fr        */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 static int	ft_isupper(int c)
 {

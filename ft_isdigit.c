@@ -6,11 +6,9 @@
 /*   By: paziehen <paziehen@student.42vienna.com>  #+#  +:+       +#+         */
 /*                                               +#+#+#+#+#+   +#+            */
 /*   Created: 2026/10/20 12:45:30 by paziehen         #+#    #+#              */
-/*   Updated: 2026/10/23 17:57:09 by paziehen        ###   ########.fr        */
+/*   Updated: 2026/10/25 13:38:32 by paziehen        ###   ########.fr        */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 int	ft_isdigit(int c)
 {
